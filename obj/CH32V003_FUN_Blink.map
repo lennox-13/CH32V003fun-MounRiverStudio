@@ -1,0 +1,385 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(save-restore.o)
+                              ./User/blink_FUN.o (__riscv_save_2)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(div.o)
+                              ./Peripheral/src/ch32v003fun.o (__udivsi3)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./User/blink_FUN.o
+ .data          0x0000000000000000        0x0 ./User/blink_FUN.o
+ .bss           0x0000000000000000        0x0 ./User/blink_FUN.o
+ .data.ADCPrescTable
+                0x0000000000000000       0x14 ./User/blink_FUN.o
+ .data.APBAHBPrescTable
+                0x0000000000000000       0x10 ./User/blink_FUN.o
+ .text          0x0000000000000000        0x0 ./Startup/startup_ch32v00x.o
+ .data          0x0000000000000000        0x0 ./Startup/startup_ch32v00x.o
+ .bss           0x0000000000000000        0x0 ./Startup/startup_ch32v00x.o
+ .text.handle_reset
+                0x0000000000000000       0x90 ./Startup/startup_ch32v00x.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32v003fun.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32v003fun.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32v003fun.o
+ .text.mini_pad
+                0x0000000000000000       0x84 ./Peripheral/src/ch32v003fun.o
+ .text._puts    0x0000000000000000       0x3e ./Peripheral/src/ch32v003fun.o
+ .text.mini_itoa.part.0
+                0x0000000000000000       0xd0 ./Peripheral/src/ch32v003fun.o
+ .text.vector_handler
+                0x0000000000000000       0x10 ./Peripheral/src/ch32v003fun.o
+ .text.strlen   0x0000000000000000       0x12 ./Peripheral/src/ch32v003fun.o
+ .text.memset   0x0000000000000000       0x10 ./Peripheral/src/ch32v003fun.o
+ .text.strcpy   0x0000000000000000       0x10 ./Peripheral/src/ch32v003fun.o
+ .text.strncpy  0x0000000000000000       0x16 ./Peripheral/src/ch32v003fun.o
+ .text.strcmp   0x0000000000000000       0x22 ./Peripheral/src/ch32v003fun.o
+ .text.strncmp  0x0000000000000000       0x2a ./Peripheral/src/ch32v003fun.o
+ .text.strchr   0x0000000000000000       0x36 ./Peripheral/src/ch32v003fun.o
+ .text.__memrchr
+                0x0000000000000000       0x20 ./Peripheral/src/ch32v003fun.o
+ .text.strrchr  0x0000000000000000       0x30 ./Peripheral/src/ch32v003fun.o
+ .text.memcpy   0x0000000000000000       0x18 ./Peripheral/src/ch32v003fun.o
+ .text.memcmp   0x0000000000000000       0x24 ./Peripheral/src/ch32v003fun.o
+ .text.memmove  0x0000000000000000       0x68 ./Peripheral/src/ch32v003fun.o
+ .text.memchr   0x0000000000000000       0x1a ./Peripheral/src/ch32v003fun.o
+ .text.strnlen  0x0000000000000000       0x28 ./Peripheral/src/ch32v003fun.o
+ .text.twoway_strstr
+                0x0000000000000000      0x21c ./Peripheral/src/ch32v003fun.o
+ .text.strstr   0x0000000000000000      0x130 ./Peripheral/src/ch32v003fun.o
+ .text.mini_vpprintf
+                0x0000000000000000      0x1c0 ./Peripheral/src/ch32v003fun.o
+ .text.printf   0x0000000000000000       0x30 ./Peripheral/src/ch32v003fun.o
+ .text.vprintf  0x0000000000000000       0x26 ./Peripheral/src/ch32v003fun.o
+ .text.mini_vsnprintf
+                0x0000000000000000       0x40 ./Peripheral/src/ch32v003fun.o
+ .text.snprintf
+                0x0000000000000000       0x1c ./Peripheral/src/ch32v003fun.o
+ .text.sprintf  0x0000000000000000       0x28 ./Peripheral/src/ch32v003fun.o
+ .text.mini_snprintf
+                0x0000000000000000       0x1c ./Peripheral/src/ch32v003fun.o
+ .text.mini_pprintf
+                0x0000000000000000       0x1c ./Peripheral/src/ch32v003fun.o
+ .text.setjmp   0x0000000000000000       0x12 ./Peripheral/src/ch32v003fun.o
+ .text.longjmp  0x0000000000000000       0x14 ./Peripheral/src/ch32v003fun.o
+ .text.handle_debug_input
+                0x0000000000000000        0x2 ./Peripheral/src/ch32v003fun.o
+ .text.internal_handle_input.constprop.2
+                0x0000000000000000       0x30 ./Peripheral/src/ch32v003fun.o
+ .text.poll_input
+                0x0000000000000000       0x2a ./Peripheral/src/ch32v003fun.o
+ .text._write   0x0000000000000000       0xd2 ./Peripheral/src/ch32v003fun.o
+ .text.__puts_uart
+                0x0000000000000000       0x22 ./Peripheral/src/ch32v003fun.o
+ .text.puts     0x0000000000000000       0x46 ./Peripheral/src/ch32v003fun.o
+ .text.putchar  0x0000000000000000       0x50 ./Peripheral/src/ch32v003fun.o
+ .text.funAnalogInit
+                0x0000000000000000       0x78 ./Peripheral/src/ch32v003fun.o
+ .text.funAnalogRead
+                0x0000000000000000       0x28 ./Peripheral/src/ch32v003fun.o
+ .text.WaitForDebuggerToAttach
+                0x0000000000000000       0x10 ./Peripheral/src/ch32v003fun.o
+ .bss.errno     0x0000000000000000        0x4 ./Peripheral/src/ch32v003fun.o
+ .data.ADCPrescTable
+                0x0000000000000000       0x14 ./Peripheral/src/ch32v003fun.o
+ .data.APBAHBPrescTable
+                0x0000000000000000       0x10 ./Peripheral/src/ch32v003fun.o
+ .rodata.puts.str1.4
+                0x0000000000000000        0x2 ./Peripheral/src/ch32v003fun.o
+ .text          0x0000000000000000        0x0 ./Core/core_riscv.o
+ .data          0x0000000000000000        0x0 ./Core/core_riscv.o
+ .bss           0x0000000000000000        0x0 ./Core/core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000        0x6 ./Core/core_riscv.o
+ .text.__get_SP
+                0x0000000000000000        0x4 ./Core/core_riscv.o
+ .debug_info    0x0000000000000000      0x324 ./Core/core_riscv.o
+ .debug_abbrev  0x0000000000000000       0xe0 ./Core/core_riscv.o
+ .debug_aranges
+                0x0000000000000000       0xa0 ./Core/core_riscv.o
+ .debug_ranges  0x0000000000000000       0x90 ./Core/core_riscv.o
+ .debug_line    0x0000000000000000      0x3f2 ./Core/core_riscv.o
+ .debug_str     0x0000000000000000      0x277 ./Core/core_riscv.o
+ .comment       0x0000000000000000       0x34 ./Core/core_riscv.o
+ .debug_frame   0x0000000000000000      0x120 ./Core/core_riscv.o
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(save-restore.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(save-restore.o)
+ .eh_frame      0x0000000000000000       0x68 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(save-restore.o)
+ .text          0x0000000000000000       0x80 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(div.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(div.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(div.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000004000 xr
+RAM              0x0000000020000000 0x0000000000000800 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./User/blink_FUN.o
+LOAD ./Startup/startup_ch32v00x.o
+LOAD ./Peripheral/src/ch32v003fun.o
+LOAD ./Core/core_riscv.o
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libprintf.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libg_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32ecxw/ilp32e\libnosys.a
+END GROUP
+                0x0000000000000100                __stack_size = 0x100
+                [!provide]                        PROVIDE (_stack_size = __stack_size)
+
+.init           0x0000000000000000      0x140
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000       0x9e ./Startup/startup_ch32v00x.o
+                0x0000000000000000                _start
+ *fill*         0x000000000000009e        0x2 
+ .init          0x00000000000000a0       0x9e ./Peripheral/src/ch32v003fun.o
+                0x00000000000000a0                InterruptVector
+                0x00000000000000a0                InterruptVectorDefault
+                0x0000000000000140                . = ALIGN (0x4)
+ *fill*         0x000000000000013e        0x2 
+                0x0000000000000140                _einit = .
+
+.text           0x0000000000000140      0x15c
+                0x0000000000000140                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000000000140       0x14 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32ecxw/ilp32e\libgcc.a(save-restore.o)
+                0x0000000000000140                __riscv_save_1
+                0x0000000000000140                __riscv_save_2
+                0x0000000000000140                __riscv_save_0
+                0x000000000000014a                __riscv_restore_0
+                0x000000000000014a                __riscv_restore_1
+                0x000000000000014a                __riscv_restore_2
+ *(.text.*)
+ .text.startup.main
+                0x0000000000000154       0x52 ./User/blink_FUN.o
+                0x0000000000000154                main
+ .text.vector_handler
+                0x00000000000001a6        0x2 ./Startup/startup_ch32v00x.o
+                0x00000000000001a6                TIM1_CC_IRQHandler
+                0x00000000000001a6                HardFault_Handler
+                0x00000000000001a6                SysTick_Handler
+                0x00000000000001a6                PVD_IRQHandler
+                0x00000000000001a6                NMI_Handler
+                0x00000000000001a6                SPI1_IRQHandler
+                0x00000000000001a6                AWU_IRQHandler
+                0x00000000000001a6                EXTI7_0_IRQHandler
+                0x00000000000001a6                DMA1_Channel4_IRQHandler
+                0x00000000000001a6                ADC1_IRQHandler
+                0x00000000000001a6                DMA1_Channel7_IRQHandler
+                0x00000000000001a6                I2C1_EV_IRQHandler
+                0x00000000000001a6                DMA1_Channel6_IRQHandler
+                0x00000000000001a6                RCC_IRQHandler
+                0x00000000000001a6                TIM1_TRG_COM_IRQHandler
+                0x00000000000001a6                DMA1_Channel1_IRQHandler
+                0x00000000000001a6                DMA1_Channel5_IRQHandler
+                0x00000000000001a6                DMA1_Channel3_IRQHandler
+                0x00000000000001a6                TIM1_UP_IRQHandler
+                0x00000000000001a6                WWDG_IRQHandler
+                0x00000000000001a6                TIM2_IRQHandler
+                0x00000000000001a6                SW_Handler
+                0x00000000000001a6                TIM1_BRK_IRQHandler
+                0x00000000000001a6                DMA1_Channel2_IRQHandler
+                0x00000000000001a6                FLASH_IRQHandler
+                0x00000000000001a6                USART1_IRQHandler
+                0x00000000000001a6                I2C1_ER_IRQHandler
+ .text.handle_reset
+                0x00000000000001a8       0x7e ./Peripheral/src/ch32v003fun.o
+                0x00000000000001a8                handle_reset
+ .text.SetupDebugPrintf
+                0x0000000000000226       0x12 ./Peripheral/src/ch32v003fun.o
+                0x0000000000000226                SetupDebugPrintf
+ .text.DelaySysTick
+                0x0000000000000238       0x16 ./Peripheral/src/ch32v003fun.o
+                0x0000000000000238                DelaySysTick
+ .text.SystemInit
+                0x000000000000024e       0x4e ./Peripheral/src/ch32v003fun.o
+                0x000000000000024e                SystemInit
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.t.*)
+                0x000000000000029c                . = ALIGN (0x4)
+ *fill*         0x000000000000029c        0x0 
+
+.rela.dyn       0x000000000000029c        0x0
+ .rela.init     0x000000000000029c        0x0 ./User/blink_FUN.o
+ .rela.text.handle_reset
+                0x000000000000029c        0x0 ./User/blink_FUN.o
+
+.fini           0x000000000000029c        0x0
+ *(SORT_NONE(.fini))
+                0x000000000000029c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x000000000000029c        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000000000029c        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000000029c        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x0000000020000000        0x0 load address 0x000000000000029c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_data_vma = .)
+
+.dlalign        0x000000000000029c        0x0
+                0x000000000000029c                . = ALIGN (0x4)
+                0x000000000000029c                PROVIDE (_data_lma = .)
+
+.data           0x0000000020000000        0x0 load address 0x000000000000029c
+                0x0000000020000000                . = ALIGN (0x4)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000000                . = ALIGN (0x8)
+                0x0000000020000800                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ *(.sdata2*)
+ *(.gnu.linkonce.s.*)
+                0x0000000020000000                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_edata = .)
+
+.bss            0x0000000020000000        0x0 load address 0x000000000000029c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_sbss = .)
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_ebss = .)
+                [!provide]                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020000700      0x100
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000020000700                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_susrstack = .)
+                0x0000000020000800                . = (. + __stack_size)
+ *fill*         0x0000000020000700      0x100 
+                0x0000000020000800                PROVIDE (_eusrstack = .)
+OUTPUT(CH32V003_FUN_Blink.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x2f75
+ .debug_info    0x0000000000000000      0xb63 ./User/blink_FUN.o
+ .debug_info    0x0000000000000b63       0x22 ./Startup/startup_ch32v00x.o
+ .debug_info    0x0000000000000b85     0x23f0 ./Peripheral/src/ch32v003fun.o
+
+.debug_abbrev   0x0000000000000000      0x807
+ .debug_abbrev  0x0000000000000000      0x245 ./User/blink_FUN.o
+ .debug_abbrev  0x0000000000000245       0x12 ./Startup/startup_ch32v00x.o
+ .debug_abbrev  0x0000000000000257      0x5b0 ./Peripheral/src/ch32v003fun.o
+
+.debug_aranges  0x0000000000000000      0x1d8
+ .debug_aranges
+                0x0000000000000000       0x20 ./User/blink_FUN.o
+ .debug_aranges
+                0x0000000000000020       0x30 ./Startup/startup_ch32v00x.o
+ .debug_aranges
+                0x0000000000000050      0x188 ./Peripheral/src/ch32v003fun.o
+
+.debug_ranges   0x0000000000000000      0x2f0
+ .debug_ranges  0x0000000000000000       0x10 ./User/blink_FUN.o
+ .debug_ranges  0x0000000000000010       0x28 ./Startup/startup_ch32v00x.o
+ .debug_ranges  0x0000000000000038      0x2b8 ./Peripheral/src/ch32v003fun.o
+
+.debug_line     0x0000000000000000     0x2b69
+ .debug_line    0x0000000000000000      0x2a8 ./User/blink_FUN.o
+ .debug_line    0x00000000000002a8      0x112 ./Startup/startup_ch32v00x.o
+ .debug_line    0x00000000000003ba     0x27af ./Peripheral/src/ch32v003fun.o
+
+.debug_str      0x0000000000000000      0xa96
+ .debug_str     0x0000000000000000      0x626 ./User/blink_FUN.o
+                                        0x694 (size before relaxing)
+ .debug_str     0x0000000000000626       0x2a ./Startup/startup_ch32v00x.o
+                                         0x57 (size before relaxing)
+ .debug_str     0x0000000000000650      0x446 ./Peripheral/src/ch32v003fun.o
+                                        0xadd (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./User/blink_FUN.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32v003fun.o
+
+.debug_frame    0x0000000000000000      0x480
+ .debug_frame   0x0000000000000000       0x2c ./User/blink_FUN.o
+ .debug_frame   0x000000000000002c      0x454 ./Peripheral/src/ch32v003fun.o
+
+.debug_loc      0x0000000000000000     0x2201
+ .debug_loc     0x0000000000000000     0x2201 ./Peripheral/src/ch32v003fun.o

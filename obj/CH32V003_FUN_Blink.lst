@@ -1,0 +1,388 @@
+
+CH32V003_FUN_Blink.elf:     file format elf32-littleriscv
+CH32V003_FUN_Blink.elf
+architecture: riscv:rv32, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x00000000
+
+Program Header:
+    LOAD off    0x00001000 vaddr 0x00000000 paddr 0x00000000 align 2**12
+         filesz 0x0000029c memsz 0x0000029c flags r-x
+    LOAD off    0x00001700 vaddr 0x20000700 paddr 0x20000700 align 2**12
+         filesz 0x00000000 memsz 0x00000100 flags rw-
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .init         00000140  00000000  00000000  00001000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .text         0000015c  00000140  00000140  00001140  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .fini         00000000  0000029c  0000029c  0000129c  2**0
+                  CONTENTS, ALLOC, LOAD, CODE
+  3 .dalign       00000000  20000000  20000000  0000129c  2**0
+                  CONTENTS
+  4 .dlalign      00000000  0000029c  0000029c  0000129c  2**0
+                  CONTENTS
+  5 .data         00000000  20000000  20000000  0000129c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  20000000  20000000  00000000  2**0
+                  ALLOC
+  7 .stack        00000100  20000700  20000700  00001700  2**0
+                  ALLOC
+  8 .debug_info   00002f75  00000000  00000000  0000129c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_abbrev 00000807  00000000  00000000  00004211  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_aranges 000001d8  00000000  00000000  00004a18  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 000002f0  00000000  00000000  00004bf0  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_line   00002b69  00000000  00000000  00004ee0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_str    00000a96  00000000  00000000  00007a49  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .comment      00000033  00000000  00000000  000084df  2**0
+                  CONTENTS, READONLY
+ 15 .debug_frame  00000480  00000000  00000000  00008514  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_loc    00002201  00000000  00000000  00008994  2**0
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+00000000 l    d  .init	00000000 .init
+00000140 l    d  .text	00000000 .text
+0000029c l    d  .fini	00000000 .fini
+20000000 l    d  .dalign	00000000 .dalign
+0000029c l    d  .dlalign	00000000 .dlalign
+20000000 l    d  .data	00000000 .data
+20000000 l    d  .bss	00000000 .bss
+20000700 l    d  .stack	00000000 .stack
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    df *ABS*	00000000 ch32v003fun.c
+00000000 l    df *ABS*	00000000 blink_FUN.c
+20000800 g       .data	00000000 __global_pointer$
+000001a6  w      .text	00000000 TIM1_CC_IRQHandler
+000001a6  w      .text	00000000 HardFault_Handler
+000001a6  w      .text	00000000 SysTick_Handler
+000001a6  w      .text	00000000 PVD_IRQHandler
+000001a6  w      .text	00000000 NMI_Handler
+000000a0 g     F .init	0000009c InterruptVectorDefault
+20000000 g       .bss	00000000 _sbss
+00000100 g       *ABS*	00000000 __stack_size
+0000014a g     F .text	0000000a .hidden __riscv_restore_2
+000000a0  w    F .init	0000009c InterruptVector
+00000140 g       .init	00000000 _einit
+000001a6  w      .text	00000000 SPI1_IRQHandler
+00000140 g     F .text	0000000a .hidden __riscv_save_1
+0000014a g     F .text	0000000a .hidden __riscv_restore_0
+000001a6  w      .text	00000000 AWU_IRQHandler
+000001a6  w      .text	00000000 EXTI7_0_IRQHandler
+000001a6  w      .text	00000000 DMA1_Channel4_IRQHandler
+000001a6  w      .text	00000000 ADC1_IRQHandler
+20000000 g       .bss	00000000 _ebss
+000001a6  w      .text	00000000 DMA1_Channel7_IRQHandler
+00000238 g     F .text	00000016 DelaySysTick
+000001a6  w      .text	00000000 I2C1_EV_IRQHandler
+000001a6  w      .text	00000000 DMA1_Channel6_IRQHandler
+000001a6  w      .text	00000000 RCC_IRQHandler
+000001a6  w      .text	00000000 TIM1_TRG_COM_IRQHandler
+000001a6  w      .text	00000000 DMA1_Channel1_IRQHandler
+00000000 g       .init	00000000 _start
+20000000 g       .dalign	00000000 _data_vma
+00000154 g     F .text	00000052 main
+000001a6  w      .text	00000000 DMA1_Channel5_IRQHandler
+0000024e g     F .text	0000004e SystemInit
+00000000 g       .init	00000000 _sinit
+000001a6  w      .text	00000000 DMA1_Channel3_IRQHandler
+000001a6  w      .text	00000000 TIM1_UP_IRQHandler
+000001a6  w      .text	00000000 WWDG_IRQHandler
+000001a6  w      .text	00000000 TIM2_IRQHandler
+20000800 g       .stack	00000000 _eusrstack
+00000140 g     F .text	0000000a .hidden __riscv_save_2
+000001a6  w      .text	00000000 SW_Handler
+000001a6  w      .text	00000000 TIM1_BRK_IRQHandler
+20000000 g       .data	00000000 _edata
+00000226 g     F .text	00000012 SetupDebugPrintf
+0000029c g       .dlalign	00000000 _data_lma
+000001a6  w      .text	00000000 DMA1_Channel2_IRQHandler
+000001a8 g     F .text	0000007e handle_reset
+00000140 g     F .text	0000000a .hidden __riscv_save_0
+000001a6  w      .text	00000000 FLASH_IRQHandler
+000001a6  w      .text	00000000 USART1_IRQHandler
+000001a6  w      .text	00000000 I2C1_ER_IRQHandler
+0000014a g     F .text	0000000a .hidden __riscv_restore_1
+
+
+
+Disassembly of section .init:
+
+00000000 <_sinit>:
+   0:	1a80006f          	j	1a8 <handle_reset>
+   4:	0000                	unimp
+   6:	0000                	unimp
+   8:	01a6                	slli	gp,gp,0x9
+   a:	0000                	unimp
+   c:	01a6                	slli	gp,gp,0x9
+	...
+  2e:	0000                	unimp
+  30:	01a6                	slli	gp,gp,0x9
+  32:	0000                	unimp
+  34:	0000                	unimp
+  36:	0000                	unimp
+  38:	01a6                	slli	gp,gp,0x9
+  3a:	0000                	unimp
+  3c:	0000                	unimp
+  3e:	0000                	unimp
+  40:	01a6                	slli	gp,gp,0x9
+  42:	0000                	unimp
+  44:	01a6                	slli	gp,gp,0x9
+  46:	0000                	unimp
+  48:	01a6                	slli	gp,gp,0x9
+  4a:	0000                	unimp
+  4c:	01a6                	slli	gp,gp,0x9
+  4e:	0000                	unimp
+  50:	01a6                	slli	gp,gp,0x9
+  52:	0000                	unimp
+  54:	01a6                	slli	gp,gp,0x9
+  56:	0000                	unimp
+  58:	01a6                	slli	gp,gp,0x9
+  5a:	0000                	unimp
+  5c:	01a6                	slli	gp,gp,0x9
+  5e:	0000                	unimp
+  60:	01a6                	slli	gp,gp,0x9
+  62:	0000                	unimp
+  64:	01a6                	slli	gp,gp,0x9
+  66:	0000                	unimp
+  68:	01a6                	slli	gp,gp,0x9
+  6a:	0000                	unimp
+  6c:	01a6                	slli	gp,gp,0x9
+  6e:	0000                	unimp
+  70:	01a6                	slli	gp,gp,0x9
+  72:	0000                	unimp
+  74:	01a6                	slli	gp,gp,0x9
+  76:	0000                	unimp
+  78:	01a6                	slli	gp,gp,0x9
+  7a:	0000                	unimp
+  7c:	01a6                	slli	gp,gp,0x9
+  7e:	0000                	unimp
+  80:	01a6                	slli	gp,gp,0x9
+  82:	0000                	unimp
+  84:	01a6                	slli	gp,gp,0x9
+  86:	0000                	unimp
+  88:	01a6                	slli	gp,gp,0x9
+  8a:	0000                	unimp
+  8c:	01a6                	slli	gp,gp,0x9
+  8e:	0000                	unimp
+  90:	01a6                	slli	gp,gp,0x9
+  92:	0000                	unimp
+  94:	01a6                	slli	gp,gp,0x9
+  96:	0000                	unimp
+  98:	01a6                	slli	gp,gp,0x9
+  9a:	0000                	unimp
+  9c:	0000                	unimp
+	...
+
+000000a0 <InterruptVectorDefault>:
+  a0:	1080006f          	j	1a8 <handle_reset>
+  a4:	0000                	unimp
+  a6:	0000                	unimp
+  a8:	01a6                	slli	gp,gp,0x9
+  aa:	0000                	unimp
+  ac:	01a6                	slli	gp,gp,0x9
+	...
+  ce:	0000                	unimp
+  d0:	01a6                	slli	gp,gp,0x9
+  d2:	0000                	unimp
+  d4:	0000                	unimp
+  d6:	0000                	unimp
+  d8:	01a6                	slli	gp,gp,0x9
+  da:	0000                	unimp
+  dc:	0000                	unimp
+  de:	0000                	unimp
+  e0:	01a6                	slli	gp,gp,0x9
+  e2:	0000                	unimp
+  e4:	01a6                	slli	gp,gp,0x9
+  e6:	0000                	unimp
+  e8:	01a6                	slli	gp,gp,0x9
+  ea:	0000                	unimp
+  ec:	01a6                	slli	gp,gp,0x9
+  ee:	0000                	unimp
+  f0:	01a6                	slli	gp,gp,0x9
+  f2:	0000                	unimp
+  f4:	01a6                	slli	gp,gp,0x9
+  f6:	0000                	unimp
+  f8:	01a6                	slli	gp,gp,0x9
+  fa:	0000                	unimp
+  fc:	01a6                	slli	gp,gp,0x9
+  fe:	0000                	unimp
+ 100:	01a6                	slli	gp,gp,0x9
+ 102:	0000                	unimp
+ 104:	01a6                	slli	gp,gp,0x9
+ 106:	0000                	unimp
+ 108:	01a6                	slli	gp,gp,0x9
+ 10a:	0000                	unimp
+ 10c:	01a6                	slli	gp,gp,0x9
+ 10e:	0000                	unimp
+ 110:	01a6                	slli	gp,gp,0x9
+ 112:	0000                	unimp
+ 114:	01a6                	slli	gp,gp,0x9
+ 116:	0000                	unimp
+ 118:	01a6                	slli	gp,gp,0x9
+ 11a:	0000                	unimp
+ 11c:	01a6                	slli	gp,gp,0x9
+ 11e:	0000                	unimp
+ 120:	01a6                	slli	gp,gp,0x9
+ 122:	0000                	unimp
+ 124:	01a6                	slli	gp,gp,0x9
+ 126:	0000                	unimp
+ 128:	01a6                	slli	gp,gp,0x9
+ 12a:	0000                	unimp
+ 12c:	01a6                	slli	gp,gp,0x9
+ 12e:	0000                	unimp
+ 130:	01a6                	slli	gp,gp,0x9
+ 132:	0000                	unimp
+ 134:	01a6                	slli	gp,gp,0x9
+ 136:	0000                	unimp
+ 138:	01a6                	slli	gp,gp,0x9
+ 13a:	0000                	unimp
+ 13c:	0000                	unimp
+	...
+
+Disassembly of section .text:
+
+00000140 <__riscv_save_0>:
+ 140:	1151                	addi	sp,sp,-12
+ 142:	c026                	sw	s1,0(sp)
+ 144:	c222                	sw	s0,4(sp)
+ 146:	c406                	sw	ra,8(sp)
+ 148:	8282                	jr	t0
+
+0000014a <__riscv_restore_0>:
+ 14a:	4482                	lw	s1,0(sp)
+ 14c:	4412                	lw	s0,4(sp)
+ 14e:	40a2                	lw	ra,8(sp)
+ 150:	0131                	addi	sp,sp,12
+ 152:	8082                	ret
+
+00000154 <main>:
+ 154:	fedff2ef          	jal	t0,140 <__riscv_save_0>
+ 158:	28dd                	jal	24e <SystemInit>
+ 15a:	40021737          	lui	a4,0x40021
+ 15e:	4f1c                	lw	a5,24(a4)
+ 160:	400116b7          	lui	a3,0x40011
+ 164:	003264b7          	lui	s1,0x326
+ 168:	0357e793          	ori	a5,a5,53
+ 16c:	cf1c                	sw	a5,24(a4)
+ 16e:	4006a783          	lw	a5,1024(a3) # 40011400 <__global_pointer$+0x20010c00>
+ 172:	7745                	lui	a4,0xffff1
+ 174:	177d                	addi	a4,a4,-1
+ 176:	8ff9                	and	a5,a5,a4
+ 178:	6705                	lui	a4,0x1
+ 17a:	8fd9                	or	a5,a5,a4
+ 17c:	40f6a023          	sw	a5,1024(a3)
+ 180:	aa048493          	addi	s1,s1,-1376 # 325aa0 <_data_lma+0x325804>
+ 184:	40011437          	lui	s0,0x40011
+ 188:	47a1                	li	a5,8
+ 18a:	40f42823          	sw	a5,1040(s0) # 40011410 <__global_pointer$+0x20010c10>
+ 18e:	8526                	mv	a0,s1
+ 190:	2065                	jal	238 <DelaySysTick>
+ 192:	000807b7          	lui	a5,0x80
+ 196:	000dc537          	lui	a0,0xdc
+ 19a:	40f42823          	sw	a5,1040(s0)
+ 19e:	ba050513          	addi	a0,a0,-1120 # dbba0 <_data_lma+0xdb904>
+ 1a2:	2859                	jal	238 <DelaySysTick>
+ 1a4:	b7c5                	j	184 <main+0x30>
+
+000001a6 <ADC1_IRQHandler>:
+ 1a6:	a001                	j	1a6 <ADC1_IRQHandler>
+
+000001a8 <handle_reset>:
+ 1a8:	20000197          	auipc	gp,0x20000
+ 1ac:	65818193          	addi	gp,gp,1624 # 20000800 <__global_pointer$>
+ 1b0:	00018113          	mv	sp,gp
+ 1b4:	08000513          	li	a0,128
+ 1b8:	30051073          	csrw	mstatus,a0
+ 1bc:	468d                	li	a3,3
+ 1be:	00000517          	auipc	a0,0x0
+ 1c2:	ee250513          	addi	a0,a0,-286 # a0 <InterruptVectorDefault>
+ 1c6:	8d55                	or	a0,a0,a3
+ 1c8:	30551073          	csrw	mtvec,a0
+ 1cc:	20000517          	auipc	a0,0x20000
+ 1d0:	e3450513          	addi	a0,a0,-460 # 20000000 <_data_vma>
+ 1d4:	20000597          	auipc	a1,0x20000
+ 1d8:	e2c58593          	addi	a1,a1,-468 # 20000000 <_data_vma>
+ 1dc:	4601                	li	a2,0
+ 1de:	00b55663          	bge	a0,a1,1ea <handle_reset+0x42>
+ 1e2:	c110                	sw	a2,0(a0)
+ 1e4:	0511                	addi	a0,a0,4
+ 1e6:	feb54ee3          	blt	a0,a1,1e2 <handle_reset+0x3a>
+ 1ea:	29c00513          	li	a0,668
+ 1ee:	20000597          	auipc	a1,0x20000
+ 1f2:	e1258593          	addi	a1,a1,-494 # 20000000 <_data_vma>
+ 1f6:	20000617          	auipc	a2,0x20000
+ 1fa:	e0a60613          	addi	a2,a2,-502 # 20000000 <_data_vma>
+ 1fe:	00c58863          	beq	a1,a2,20e <handle_reset+0x66>
+ 202:	4114                	lw	a3,0(a0)
+ 204:	c194                	sw	a3,0(a1)
+ 206:	0511                	addi	a0,a0,4
+ 208:	0591                	addi	a1,a1,4
+ 20a:	fec59ae3          	bne	a1,a2,1fe <handle_reset+0x56>
+ 20e:	e000f7b7          	lui	a5,0xe000f
+ 212:	4705                	li	a4,1
+ 214:	c398                	sw	a4,0(a5)
+ 216:	000007b7          	lui	a5,0x0
+ 21a:	15478793          	addi	a5,a5,340 # 154 <main>
+ 21e:	34179073          	csrw	mepc,a5
+ 222:	30200073          	mret
+
+00000226 <SetupDebugPrintf>:
+ 226:	e00007b7          	lui	a5,0xe0000
+ 22a:	0e07ac23          	sw	zero,248(a5) # e00000f8 <__global_pointer$+0xbffff8f8>
+ 22e:	08000713          	li	a4,128
+ 232:	0ee7aa23          	sw	a4,244(a5)
+ 236:	8082                	ret
+
+00000238 <DelaySysTick>:
+ 238:	e000f7b7          	lui	a5,0xe000f
+ 23c:	479c                	lw	a5,8(a5)
+ 23e:	e000f737          	lui	a4,0xe000f
+ 242:	953e                	add	a0,a0,a5
+ 244:	471c                	lw	a5,8(a4)
+ 246:	8f89                	sub	a5,a5,a0
+ 248:	fe07cee3          	bltz	a5,244 <DelaySysTick+0xc>
+ 24c:	8082                	ret
+
+0000024e <SystemInit>:
+ 24e:	ef3ff2ef          	jal	t0,140 <__riscv_save_0>
+ 252:	400227b7          	lui	a5,0x40022
+ 256:	4705                	li	a4,1
+ 258:	c398                	sw	a4,0(a5)
+ 25a:	400217b7          	lui	a5,0x40021
+ 25e:	01080737          	lui	a4,0x1080
+ 262:	0007a223          	sw	zero,4(a5) # 40021004 <__global_pointer$+0x20020804>
+ 266:	08170713          	addi	a4,a4,129 # 1080081 <_data_lma+0x107fde5>
+ 26a:	c398                	sw	a4,0(a5)
+ 26c:	009f0737          	lui	a4,0x9f0
+ 270:	c798                	sw	a4,8(a5)
+ 272:	40021737          	lui	a4,0x40021
+ 276:	431c                	lw	a5,0(a4)
+ 278:	00679693          	slli	a3,a5,0x6
+ 27c:	fe06dde3          	bgez	a3,276 <SystemInit+0x28>
+ 280:	435c                	lw	a5,4(a4)
+ 282:	400216b7          	lui	a3,0x40021
+ 286:	9bf1                	andi	a5,a5,-4
+ 288:	0027e793          	ori	a5,a5,2
+ 28c:	c35c                	sw	a5,4(a4)
+ 28e:	4721                	li	a4,8
+ 290:	42dc                	lw	a5,4(a3)
+ 292:	8bb1                	andi	a5,a5,12
+ 294:	fee79ee3          	bne	a5,a4,290 <SystemInit+0x42>
+ 298:	3779                	jal	226 <SetupDebugPrintf>
+ 29a:	bd45                	j	14a <__riscv_restore_0>
