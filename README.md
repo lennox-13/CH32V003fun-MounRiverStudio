@@ -13,4 +13,4 @@ As an example, I am providing a sample MRS project.
 
 Enjoy. 
 
-Thx. Stefan :-)
+Thx. cnlohr :-)
