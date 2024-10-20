@@ -1,4 +1,4 @@
-# CH32V003fun-MounRiverStudio
+# CH32V003fun MounRiverStudio
 
 Instructions on how to compile and debug code written using the alternative HAL ch32v003fun or for PlatformIO. 
 The process is simple: in MRS, delete all files in the USER directory, then delete the files in INC and SRC under Peripheral. 
